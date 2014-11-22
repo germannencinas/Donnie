@@ -1,0 +1,62 @@
+.form{
+
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="url"],
+  input[type="search"],
+  input[type="color"],
+  input[type="number"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="week"],
+  input[type="month"],
+  input[type="time"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  textarea,
+  select {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 12px 10px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #c0c0c0;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 5px #ccc;
+    -webkit-transition: border-color 0.1s ease-in-out;
+    -moz-transition: border-color 0.1s ease-in-out;
+    transition: border-color 0.1s ease-in-out;
+
+    &:focus{
+      border-color: #379BDE;
+      outline: 0;
+    }
+  }
+  
+  textarea {
+    height: auto;
+  }
+
+  label {
+      display: block;
+      margin: 10px 0;
+  }
+  fieldset {
+      margin: 0;
+      border: 0;
+  }
+  legend {
+      display: block;
+      width: 100%;
+      font-size: 18px;
+      padding: 8px 0;
+      border-bottom: 1px solid #ccc;
+  }
+}
+
+
+
+
+
